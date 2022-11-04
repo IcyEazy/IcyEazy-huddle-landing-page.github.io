@@ -51,7 +51,7 @@ footer div span i:hover {
     color: hsl(300, 69%, 71%);
 }
 
-@media (max-width: 560px) {
+@media (max-width: 375px) {
     body{
         background-image: url(./images/bg-mobile.svg);
         padding: 10px;

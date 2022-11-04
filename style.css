@@ -1,0 +1,76 @@
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+header{
+    margin: 30px 0 0 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+
+.container{
+    margin: 60px 40px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.text-component{
+    margin: 20px 0 0 50px;
+}
+
+button{
+    margin-top: 15px;
+    border-radius: 25px;
+    padding: 13px 60px;
+    font-size: 18px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+}
+
+footer{
+    text-align: end;
+    margin: 0px 40px 20px 0;
+    word-spacing: 5px;
+    font-size: 30px;
+}
+
+footer div span i:hover {
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 560px) {
+    body{
+        background-image: url(./images/bg-mobile.svg);
+        padding: 10px;
+    }
+
+    header, .text-component{
+        margin: 0;
+    }
+    .container .svg-component svg{
+        width: 100%;
+    }
+    .container{
+        margin: 0 0 40px 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        margin: 0;
+        text-align: center;
+    }
+}
